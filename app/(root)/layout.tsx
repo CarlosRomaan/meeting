@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title: "MeetWave",
-  description: "A video meeting app",
+  description: "Where ideas meet",
   icons: {
     icon: "/icons/logo.svg"
   }

@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "MeetWave",
-  description: "A video meeting app",
+  description: "Where ideas meet",
   icons: {
     icon: "/icons/logo.svg"
   }
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="en">
       <ClerkProvider
         appearance={{
           layout: {
@@ -55,12 +55,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-/*
-
-https://github.com/adrianhajdin/zoom-clone
-
-3:37:00
-
-*/

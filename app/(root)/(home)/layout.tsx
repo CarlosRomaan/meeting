@@ -4,8 +4,8 @@ import Sidebar from "@/components/Sidebar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Meeting",
-  description: "A video meeting app",
+  title: "MeetWave",
+  description: "Where ideas meet",
   icons: {
     icon: "/icons/logo.svg"
   }
